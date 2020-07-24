@@ -81,6 +81,10 @@ export const routes: Routes = [
       {
         path: 'widgets',
         loadChildren: () => import('./views/widgets/widgets.module').then(m => m.WidgetsModule)
+      },
+      {
+        path: 'trellos',
+        loadChildren: () => import('./views/trellos/trellos.module').then(m => m.TrellosModule)
       }
     ]
   },

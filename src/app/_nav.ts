@@ -190,6 +190,11 @@ export const navItems: INavData[] = [
     }
   },
   {
+    name: 'Trellos',
+    url: '/trellos',
+    icon: 'icon-notebook'
+  },
+  {
     divider: true
   },
   {
